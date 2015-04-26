@@ -23,12 +23,12 @@ public class Surface {
     }
 
     public boolean remove(int  index) {
-        if (arrayList.size()-1 < index) {
-            System.out.println("Index " + index + " out of boundary");
-            return false;
-        } else {
+        try {
             arrayList.set(index, null);
             return true;
+        } catch (ArrayIndexOutOfBoundsException exception) {
+            System.out.println("Index " + index + " out of boundary");
+            return false;
         }
     }
 

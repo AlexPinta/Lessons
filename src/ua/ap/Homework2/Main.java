@@ -24,7 +24,7 @@ public class Main {
 
         newSurface.printInfo();
 
-        //remove elements
+        //remove elements with exception..... it's for example
 
         for (int i = 0; i <= 6; i++){
             newSurface.remove(i);
