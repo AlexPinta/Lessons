@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ua.ap.Homework2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="631.0">ua.ap.Homework2.Main</node>
+    <node x="261.0" y="121.0">ua.ap.Homework2.Square</node>
+    <node x="0.0" y="408.0">ua.ap.Homework2.Surface</node>
+    <node x="507.0" y="131.5">ua.ap.Homework2.Triangle</node>
+    <node x="236.0" y="408.0">ua.ap.Homework2.Point</node>
+    <node x="302.0" y="0.0">ua.ap.Homework2.Shape</node>
+    <node x="0.0" y="121.0">ua.ap.Homework2.Rectangle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.ap.Homework2.Triangle" target="ua.ap.Homework2.Shape">
+      <point x="0.0" y="-110.5" />
+      <point x="606.0" y="96.0" />
+      <point x="422.0" y="96.0" />
+      <point x="48.0" y="35.5" />
+    </edge>
+    <edge source="ua.ap.Homework2.Square" target="ua.ap.Homework2.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Surface" target="ua.ap.Homework2.Shape">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Main" target="ua.ap.Homework2.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Rectangle" target="ua.ap.Homework2.Shape">
+      <point x="0.0" y="-121.0" />
+      <point x="120.5" y="96.0" />
+      <point x="326.0" y="96.0" />
+      <point x="-48.0" y="35.5" />
+    </edge>
+    <edge source="ua.ap.Homework2.Main" target="ua.ap.Homework2.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Square" target="ua.ap.Homework2.Shape">
+      <point x="0.0" y="-121.0" />
+      <point x="0.0" y="35.5" />
+    </edge>
+    <edge source="ua.ap.Homework2.Rectangle" target="ua.ap.Homework2.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Main" target="ua.ap.Homework2.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Main" target="ua.ap.Homework2.Triangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Main" target="ua.ap.Homework2.Surface">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework2.Triangle" target="ua.ap.Homework2.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="488.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
