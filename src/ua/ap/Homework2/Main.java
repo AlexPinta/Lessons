@@ -23,6 +23,7 @@ public class Main {
         //last try with added element didn't agree surface class
 
         newSurface.printInfo();
+        System.out.println("Summary area of surface: " + newSurface.getArea());
 
         //remove elements with exception..... it's for example
 
@@ -31,5 +32,7 @@ public class Main {
         }
 
         newSurface.printInfo();
+
+        System.out.println("Summary area of surface: " + newSurface.getArea());
     }
 }

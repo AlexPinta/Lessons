@@ -26,8 +26,11 @@ public class Surface {
         try {
             arrayList.set(index, null);
             return true;
-        } catch (ArrayIndexOutOfBoundsException exception) {
+        } catch (IndexOutOfBoundsException exception) {
             System.out.println("Index " + index + " out of boundary");
+            return false;
+        }  catch (Exception e) {
+            System.out.println("Any error!");
             return false;
         }
     }
@@ -39,5 +42,15 @@ public class Surface {
         System.out.println("");
     }
 
+    public double getArea() {
+        Shape objShape;
+        double summeryArea = 0.00;
+        for (int i = 0; i < CAPACITY_OF_ARRAY; i++) {
+            objShape = arrayList.get(i);
+            //interpretation elements to parent class - for using method
+            summeryArea += (double) (objShape == null ? 0.00 : objShape.getArea());
+        }
 
+        return summeryArea;
+    }
 }
