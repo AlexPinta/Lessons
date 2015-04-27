@@ -3,7 +3,9 @@ package ua.ap.Homework2;
 /**
  * @author Alex Pinta
  * @version 1.0
+ *
  * Class Point use to create some geometric shape
+ *
  * access to private property use:
  * @see #getX()
  * @see #getY()
