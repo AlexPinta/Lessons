@@ -1,9 +1,32 @@
 package ua.ap.Homework2;
 
+/**
+ * @author Alex Pinta
+ * @version 1.0
+ * Class Point use to create some geometric shape
+ * access to private property use:
+ * @see #getX()
+ * @see #getY()
+ *
+ * for set x,y coordinate use:
+ * @see #setX(double)
+ * @see #setY(double)
+ *
+ * use constructor
+ * @see #Point(double, double)
+ *
+ * function, which return distance with other point
+ * @see  #getDistance(Point)
+ */
 public class Point {
     private double x;
     private double y;
 
+    /**
+     * Class constructor
+     * @param x  the X coordinate
+     * @param y  the Y coordinate
+     */
     public Point(double x, double y) {
         this.x = x;
         this.y = y;
