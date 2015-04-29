@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ua.ap.Homework3</OriginalElement>
+  <nodes>
+    <node x="-377.5" y="-16.0">ua.ap.Homework3.Person</node>
+    <node x="291.0" y="0.0">ua.ap.Homework3.Group</node>
+    <node x="396.0" y="443.0">ua.ap.Homework3.Main</node>
+    <node x="120.0" y="296.0">ua.ap.Homework3.MyThrow</node>
+    <node x="-392.0" y="421.0">ua.ap.Homework3.Students</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.ap.Homework3.Main" target="ua.ap.Homework3.Students">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework3.Students" target="ua.ap.Homework3.Person">
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="78.5" />
+    </edge>
+    <edge source="ua.ap.Homework3.Group" target="ua.ap.Homework3.MyThrow">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework3.Group" target="ua.ap.Homework3.Students">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ua.ap.Homework3.Main" target="ua.ap.Homework3.Group">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="230.5" />
+  <SelectedNodes>
+    <node>ua.ap.Homework3.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
