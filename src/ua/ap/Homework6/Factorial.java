@@ -13,7 +13,7 @@ import java.math.BigInteger;
 public class Factorial implements Runnable{
     private int i;
     private BigInteger result;
-    private static final BigInteger minusOne = new BigInteger("-1");
+
     public Factorial(int i) {
         this.i = i;
         Thread locThread = new Thread(this);
